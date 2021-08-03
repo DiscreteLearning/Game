@@ -4,7 +4,10 @@ char name[20];
 int roll_no;
 //basic structure
 void getName();
-void getRoll();
+void getRoll()
+{
+  cin>>roll_no;
+}
 void main()
 {
   getName();
