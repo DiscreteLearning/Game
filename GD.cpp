@@ -7,7 +7,12 @@ void getName()
 {
   cin>>name;
 }
-void getRoll();
+
+void getRoll()
+{
+  cin>>roll_no;
+}
+
 void main()
 {
   getName();
